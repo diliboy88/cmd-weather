@@ -1,4 +1,4 @@
-name: wethr
+name: cmdweather
 version: "1.4.0"
 summary: Command line weather tool.
 Description: |
