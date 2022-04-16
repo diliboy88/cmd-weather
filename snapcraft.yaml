@@ -1,0 +1,29 @@
+name: wethr
+version: "1.4.0"
+summary: Command line weather tool.
+Description: |
+  Get current weather.
+
+confinement: strict
+
+base: core18
+
+apps:
+
+  wethr:
+
+    command: wethr
+
+    plugs:
+
+      - network
+
+parts:
+
+  wethr:
+
+    plugin: nodejs
+
+    source-tag: "v1.4.0"
+
+    source: https://github.com/twobucks/wethr.git
